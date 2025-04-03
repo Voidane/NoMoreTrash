@@ -16,14 +16,13 @@ namespace NoMoreTrash
 {
     public class NoMoreTrashMod : MelonMod
     {
-        public static readonly string MOD_PREFIX = "[NoMoreTrash]";
 
         public override void OnInitializeMelon()
         {
-            MelonLogger.Msg($"{MOD_PREFIX} Initializing, Created by Voidane.");
-            MelonLogger.Msg($"{MOD_PREFIX} Discord: discord.gg/XB7ruKtJje");
+            MelonLogger.Msg($"Initializing, Created by Voidane.");
+            MelonLogger.Msg($"Discord: discord.gg/XB7ruKtJje");
             HarmonyPatches();
-            MelonLogger.Msg($"{MOD_PREFIX} Has been initialized...");
+            MelonLogger.Msg($"Has been initialized...");
         }
 
         private void HarmonyPatches()
@@ -37,7 +36,10 @@ namespace NoMoreTrash
 
         private static void Patch_TrashItem_Start(TrashItem __instance)
         {
-            __instance.DestroyTrash();
+            if (__instance.transform.parent.gameObject.name.Contains("_Temp"))
+            {
+                __instance.DestroyTrash();
+            }
         }
     }
 }
