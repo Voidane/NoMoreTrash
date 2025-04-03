@@ -16,7 +16,6 @@ namespace NoMoreTrash
 {
     public class NoMoreTrashMod : MelonMod
     {
-
         public override void OnInitializeMelon()
         {
             MelonLogger.Msg($"Initializing, Created by Voidane.");
