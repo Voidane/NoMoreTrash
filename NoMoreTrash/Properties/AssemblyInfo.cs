@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using MelonLoader;
 using NoMoreTrash;
 
-[assembly: MelonInfo(typeof(NoMoreTrashMod), "NoMoreTrash", "1.0", "Voidane")]
+[assembly: MelonInfo(typeof(NoMoreTrashMod), "NoMoreTrash", "1.0.1", "Voidane")]
 [assembly: MelonGame("TVGS", "Schedule I")]
 
 // General Information about an assembly is controlled through the following

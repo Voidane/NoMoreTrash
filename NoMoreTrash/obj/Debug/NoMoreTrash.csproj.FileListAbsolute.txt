@@ -6,7 +6,6 @@ C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\MelonLoader.dll
 C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\UnityEngine.CoreModule.dll
 C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\UnityEngine.InputLegacyModule.dll
 C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\Mono.Cecil.dll
-C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\Il2Cppmscorlib.dll
 C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\UnityEngine.PhysicsModule.dll
 C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\UnityEngine.Physics2DModule.dll
 C:\Users\Austin\source\repos\NoMoreTrash\NoMoreTrash\bin\Debug\UnityEngine.AnimationModule.dll
