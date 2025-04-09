@@ -6,6 +6,8 @@
 [![License](https://img.shields.io/badge/LICENSE-MIT-5466b8?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Downloads](https://img.shields.io/badge/DOWNLOADS-10K+-00B81F?style=for-the-badge)](https://www.nexusmods.com/schedule1/mods/221)
 
+[![Patreon](https://img.shields.io/badge/Patreon-Support_Me-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/c/Voidane)
+
 </div>
 
 <div align="center">
