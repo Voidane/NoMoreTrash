@@ -10,7 +10,7 @@ using NoMoreTrashMono;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NoMoreTrashMono")]
+[assembly: AssemblyTitle("NoMoreTrash")]
 [assembly: AssemblyDescription("Destroys all trash in the world that the config is set to.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]

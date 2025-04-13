@@ -16,8 +16,9 @@ namespace NoMoreTrashMono
         public static ConfigData configData;
 
         private const string versionCurrent = "1.0.1";
-        private const string versionMostUpToDateURL = "";
-        private const string versionBranchURL = "";
+        private const string versionMostUpToDateURL = "https://raw.githubusercontent.com/Voidane/NoMoreTrash/refs/heads/Mono/NoMoreTrashMono/Version.txt";
+        private const string githubBranchURL = "https://github.com/Voidane/NoMoreTrash/tree/Mono";
+        private const string nexusOrThunderURL = "https://www.nexusmods.com/schedule1/mods/221?tab=files or thunderstore link";
         private string versionUpdate = null;
 
         public override void OnInitializeMelon()
@@ -48,7 +49,7 @@ namespace NoMoreTrashMono
 
             if (versionCurrent != versionUpdate)
             {
-                MelonLogger.Msg($"New Update for no trash mod (mono)! {versionBranchURL}, Current: {versionCurrent}, Update: {versionUpdate}");
+                MelonLogger.Msg($"New Update for no trash mod (MONO)! {nexusOrThunderURL}, Current: {versionCurrent}, Update: {versionUpdate}");
             }
 
             MelonLogger.Msg($"Has been initialized...");

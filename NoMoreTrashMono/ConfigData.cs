@@ -52,7 +52,7 @@ namespace NoMoreTrashMono
         public ConfigData()
         {
             Instance = this;
-            clearTrash = MelonPreferences.CreateCategory("ClearTrash");
+            clearTrash = MelonPreferences.CreateCategory("NoMoreTrash-clearTrash", "ClearTrash");
             soilbag = clearTrash.CreateEntry<bool>("soilbag", true);
             soilbag2 = clearTrash.CreateEntry<bool>("soilbag2", true);
             seedvial = clearTrash.CreateEntry<bool>("seedvial", true);
