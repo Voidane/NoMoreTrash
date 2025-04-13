@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗑️ NoMoreTrash Mod for Schedule 1
+# 🗑️ NoMoreTrash 🗑️
 
 [![Discord](https://img.shields.io/badge/Discord-VOID_Community-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/XB7ruKtJje)
 [![License](https://img.shields.io/badge/LICENSE-MIT-5466b8?style=for-the-badge)](https://opensource.org/licenses/MIT)
