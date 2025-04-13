@@ -17,7 +17,9 @@ namespace NoMoreTrash
         public static ConfigData configData;
 
         private const string versionCurrent = "1.0.1";
-        private const string versionMostUpToDateURL = "https://raw.githubusercontent.com/Voidane/NoMoreTrash/refs/heads/master/NoMoreTrash/Version.txt";
+        private const string versionMostUpToDateURL = "https://raw.githubusercontent.com/Voidane/NoMoreTrash/refs/heads/Il2cpp/NoMoreTrash/Version.txt";
+        private const string githubBranchURL = "https://github.com/Voidane/NoMoreTrash";
+        private const string nexusURL = "https://www.nexusmods.com/schedule1/mods/221?tab=files";
         private string versionUpdate = null;
 
         public override void OnInitializeMelon()
@@ -48,7 +50,7 @@ namespace NoMoreTrash
 
             if (versionCurrent != versionUpdate)
             {
-                MelonLogger.Msg($"New Update for no trash mod! https://www.nexusmods.com/schedule1/mods/221?tab=files, Current: {versionCurrent}, Update: {versionUpdate}");
+                MelonLogger.Msg($"New Update for no trash mod (IL2CPP)! {nexusURL}, Current: {versionCurrent}, Update: {versionUpdate}");
             }
 
             MelonLogger.Msg($"Has been initialized...");
@@ -80,7 +82,6 @@ namespace NoMoreTrash
             float timeOutCounter = 0F;
             int attempt = 0;
 
-            MelonLogger.Msg($"Looking for {name} inside of {(parent == null ? "Hierarchy" : parent.gameObject.name)}");
             while (target == null && timeOutCounter < timeoutLimit)
             {
                 target = (parent == null) ? GameObject.Find(name).transform : parent.Find(name);
