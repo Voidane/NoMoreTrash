@@ -4,7 +4,7 @@
 
 [![Discord](https://img.shields.io/badge/Discord-VOID_Community-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/XB7ruKtJje)
 [![License](https://img.shields.io/badge/LICENSE-MIT-5466b8?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/badge/DOWNLOADS-15K+-00B81F?style=for-the-badge)](https://www.nexusmods.com/schedule1/mods/221)
+[![Downloads](https://img.shields.io/badge/DOWNLOADS-30,000+-00B81F?style=for-the-badge)](https://www.nexusmods.com/schedule1/mods/221)
 
 [![Patreon](https://img.shields.io/badge/Patreon-Support_Me-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/c/Voidane)
 
